@@ -10,6 +10,7 @@ import (
 
 var in = bufio.NewScanner(os.Stdin)
 
+//"""exits?"""
 //=============入力===============
 
 //引数nの長さのスライスを生成する
@@ -51,7 +52,6 @@ func nextSlices(n int) (a, b []int) {
 }
 
 //====================================
-
 //WORD分割(一文字ずつ)
 func separateWords(str string) []string {
 	temp := strings.Split(str, "")
