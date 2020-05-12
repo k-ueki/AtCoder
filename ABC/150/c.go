@@ -8,7 +8,10 @@ func main() {
 	p := make([]int, n)
 	q := make([]int, n)
 	for i, _ := range p {
-		fmt.Scan(&p[i], &q[i])
+		fmt.Scan(&p[i])
+	}
+	for i, _ := range q {
+		fmt.Scan(&q[i])
 	}
 
 }
