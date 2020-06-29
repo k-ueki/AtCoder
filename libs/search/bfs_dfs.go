@@ -4,6 +4,8 @@ import (
 	"github.com/k-ueki/AtCoder/libs/data"
 )
 
+// queue: BFS
+// stack: DFS
 func main() {
 	var q data.Queue
 	n := 10

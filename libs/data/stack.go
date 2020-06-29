@@ -1,4 +1,4 @@
-package stack
+package data
 
 type (
 	Stack struct {
@@ -12,7 +12,7 @@ type (
 	}
 )
 
-func New() *Stack {
+func NewStack() *Stack {
 	return &Stack{nil, 0}
 }
 

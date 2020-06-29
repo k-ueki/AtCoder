@@ -1,4 +1,4 @@
-package queue
+package data
 
 type (
 	Queue struct {
@@ -12,7 +12,7 @@ type (
 	}
 )
 
-func New() *Queue {
+func NewQueue() *Queue {
 	return &Queue{nil, nil, 0}
 }
 
